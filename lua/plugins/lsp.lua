@@ -27,25 +27,21 @@ return {
     })
 
 
-    -- Mason setup
-    require("mason").setup({
-      ensure_installed = {
+    require("mason").setup({})
+
+    vim.lsp.config("*", {
+      capabilities = require("cmp_nvim_lsp").default_capabilities(),
+    })
+    vim.lsp.config("lua_ls", {
+      settings = {
+        Lua = {
+          diagnostics = { globals = { "vim" } },
+        },
       },
     })
 
-    -- Mason-lspconfig setup
     require("mason-lspconfig").setup({
-      handlers = {
-        -- Default handler for automatically configuring installed servers
-        function(server_name)
-          require("lspconfig")[server_name].setup({}) end,
-
-        -- You can add custom handlers for specific servers here
-        -- For example:
-        -- tsserver = function(_, opts)
-        --   require("lspconfig").tsserver.setup(opts)
-        -- end,
-      },
+      ensure_installed = { "pyright", "gopls", "lua_ls", "ts_ls" },
     })
 
     local cmp = require("cmp")
@@ -81,6 +77,11 @@ return {
     -- find more here: https://www.nerdfonts.com/cheat-sheet
 
     cmp.setup({
+      snippet = {
+        expand = function(args)
+          vim.snippet.expand(args.body)
+        end,
+      },
       sources = {
         {name = "nvim_lsp"},
       },
