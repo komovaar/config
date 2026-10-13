@@ -140,10 +140,10 @@ XftAntialias=true
 XftHintStyle=hintslight
 XftSubPixel=none
 fixed=JetBrainsMono Nerd Font,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1,,0,0
-font=JetBrainsMono Nerd Font,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1,,0,0
-menuFont=JetBrainsMono Nerd Font,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1,,0,0
-smallestReadableFont=JetBrainsMono Nerd Font,8,-1,5,400,0,0,0,0,0,0,0,0,0,0,1,,0,0
-toolBarFont=JetBrainsMono Nerd Font,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1,,0,0
+font=Inter,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1,,0,0
+menuFont=Inter,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1,,0,0
+smallestReadableFont=Inter,8,-1,5,400,0,0,0,0,0,0,0,0,0,0,1,,0,0
+toolBarFont=Inter,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1,,0,0
 
 [Icons]
 Theme=YAMIS
@@ -174,7 +174,7 @@ View Style=DetailTree
 [WM]
 activeBackground=39,44,49
 activeBlend=252,252,252
-activeFont=JetBrainsMono Nerd Font,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1,,0,0
+activeFont=Inter,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1,,0,0
 activeForeground=252,252,252
 inactiveBackground=32,36,40
 inactiveBlend=161,169,177

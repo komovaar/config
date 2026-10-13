@@ -6328,6 +6328,8 @@
   "assets/icons/YAMIS/apps/16/easyeffects.svg": ".local/share/icons/YAMIS/apps/16/easyeffects.svg",
   "assets/icons/YAMIS/apps/16/tailscale.svg": ".local/share/icons/YAMIS/apps/16/tailscale.svg",
   "assets/icons/YAMIS/apps/16/cachy-update-blue-alt.svg": ".local/share/icons/YAMIS/apps/16/cachy-update-blue-alt.svg",
+  "assets/fonts/Inter/Inter.ttc": ".local/share/fonts/Inter/Inter.ttc",
+  "assets/fonts/Inter/LICENSE.txt": ".local/share/fonts/Inter/LICENSE.txt",
   "assets/fonts/JetBrainsMonoNerd/JetBrainsMonoNerdFont-SemiBold.ttf": ".local/share/fonts/JetBrainsMonoNerd/JetBrainsMonoNerdFont-SemiBold.ttf",
   "assets/fonts/JetBrainsMonoNerd/JetBrainsMonoNerdFont-Light.ttf": ".local/share/fonts/JetBrainsMonoNerd/JetBrainsMonoNerdFont-Light.ttf",
   "assets/fonts/JetBrainsMonoNerd/JetBrainsMonoNerdFont-ExtraLight.ttf": ".local/share/fonts/JetBrainsMonoNerd/JetBrainsMonoNerdFont-ExtraLight.ttf",

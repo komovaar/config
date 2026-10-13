@@ -4,6 +4,11 @@ This snapshot stores KDE appearance, fonts, icons, shortcuts, panels, widgets,
 GTK appearance settings, and wallpaper images. Neovim configuration remains at
 the repository root. Requires Python 3; font discovery uses Fontconfig.
 
+Desktop text uses Inter 4.1, bundled with its license from
+https://rsms.me/inter/download/. To apply just this font to the original setup
+without restoring panels or other settings, run `python3 desktop/kde/apply-font.py`.
+This backs up changed files and preserves the fixed-width font for code.
+
 Refresh the snapshot after customizing your desktop:
 
 ```sh
