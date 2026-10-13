@@ -13,7 +13,8 @@ return {
       auto_install = true,
       highlight = {
         enable = true,
-        additional_vim_regex_highlighting = false,
+        -- Keep syntax readable even when a parser cannot be downloaded.
+        additional_vim_regex_highlighting = true,
       },
       indent = { enable = true },
     })
