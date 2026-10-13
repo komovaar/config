@@ -1,0 +1,8 @@
+# Relevant installed Fedora packages at capture time.
+# Reference only; restore does not install or pin packages.
+plasma-workspace
+kwin
+breeze-icon-theme
+kde-gtk-config
+fontconfig
+python3
