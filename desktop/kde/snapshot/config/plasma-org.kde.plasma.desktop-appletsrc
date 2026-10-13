@@ -198,9 +198,14 @@ popupHeight=451
 popupWidth=560
 
 [Containments][216][Applets][235][Configuration][Appearance]
+autoFontAndSize=false
 customDateFormat=dddd,
 dateDisplayFormat=BesideTime
 dateFormat=custom
+fontFamily=Inter
+fontSize=9
+fontStyleName=Regular
+fontWeight=400
 use24hFormat=2
 
 [Containments][216][Applets][235][Configuration][ConfigDialog]
