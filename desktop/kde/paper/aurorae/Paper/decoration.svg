@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="140" height="70">
+<rect id="decoration-topleft" x="0" y="0" width="1" height="1" fill="#626262"/>
+<rect id="decoration-top" x="1" y="0" width="58" height="1" fill="#626262"/>
+<rect id="decoration-topright" x="59" y="0" width="1" height="1" fill="#626262"/>
+<rect id="decoration-left" x="0" y="1" width="1" height="58" fill="#626262"/>
+<rect id="decoration-center" x="1" y="1" width="58" height="58" fill="#f3f3f3"/>
+<rect id="decoration-right" x="59" y="1" width="1" height="58" fill="#626262"/>
+<rect id="decoration-bottomleft" x="0" y="59" width="1" height="1" fill="#626262"/>
+<rect id="decoration-bottom" x="1" y="59" width="58" height="1" fill="#626262"/>
+<rect id="decoration-bottomright" x="59" y="59" width="1" height="1" fill="#626262"/>
+<rect id="decoration-inactive-topleft" x="70" y="0" width="1" height="1" fill="#b4b4b4"/>
+<rect id="decoration-inactive-top" x="71" y="0" width="58" height="1" fill="#b4b4b4"/>
+<rect id="decoration-inactive-topright" x="129" y="0" width="1" height="1" fill="#b4b4b4"/>
+<rect id="decoration-inactive-left" x="70" y="1" width="1" height="58" fill="#b4b4b4"/>
+<rect id="decoration-inactive-center" x="71" y="1" width="58" height="58" fill="#f3f3f3"/>
+<rect id="decoration-inactive-right" x="129" y="1" width="1" height="58" fill="#b4b4b4"/>
+<rect id="decoration-inactive-bottomleft" x="70" y="59" width="1" height="1" fill="#b4b4b4"/>
+<rect id="decoration-inactive-bottom" x="71" y="59" width="58" height="1" fill="#b4b4b4"/>
+<rect id="decoration-inactive-bottomright" x="129" y="59" width="1" height="1" fill="#b4b4b4"/>
+</svg>

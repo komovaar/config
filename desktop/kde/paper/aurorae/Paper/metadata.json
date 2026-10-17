@@ -1,0 +1,9 @@
+{
+  "KPlugin": {
+    "Id": "Paper",
+    "Name": "Paper",
+    "Description": "Square monochrome window frames",
+    "Version": "1.0",
+    "License": "MIT"
+  }
+}
